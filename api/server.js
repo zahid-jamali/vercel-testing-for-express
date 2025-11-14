@@ -8,7 +8,7 @@ app.use(express.json());
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("views/index");
 });
 app.use("/", healthRoutes);
 
